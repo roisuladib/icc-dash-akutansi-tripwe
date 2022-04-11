@@ -1,0 +1,54 @@
+#dashboard {
+   .title {
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      color: var(--abu);
+   }
+   .info {
+      margin-top: 15px;
+      .tripwe-btn-sm {
+         padding: 0;
+         height: 26px;
+         width: 33px;
+         color: var(--white);
+         background: var(--ijoT);
+         svg {
+            fill: var(--white);
+         }
+         &:focus, &:active {
+            box-shadow: 0 0 0 0.02rem rgba(58, 176, 195, 0.5);
+         }
+      }
+   }
+   #col-left {
+      .col-6 {
+         padding: 0 10px;
+      }
+      .col-6:nth-child(1) {
+         padding: 0 10px 0 15px;
+      }
+      .col-6:nth-child(3) {
+         padding: 0 10px 0 15px;
+      }
+   }
+   .dashboard-card-sm {
+      height: 162px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background: var(--grey);
+   }
+   .dashboard-card-lg {
+      height: 344px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background: var(--grey);
+   }
+   .pl-10 {
+      padding-left: 10px;
+   }
+   .pr-10 {
+      padding-right: 10px;
+   }
+}

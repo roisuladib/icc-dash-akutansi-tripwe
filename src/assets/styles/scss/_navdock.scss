@@ -1,0 +1,24 @@
+.nav-dock {
+   background: var(--abu);
+   padding: 4px 0;
+   border-radius: 20px 20px 0 0;
+   border: 1px solid var(--ijoT);
+   border-bottom: none;
+   .item {
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      .btn-dock {
+         color: var(--grey) !important;
+         fill: var(--grey) !important;
+         font-size: 8px;
+         width: 26px;
+      }
+      .title {
+         font-size: 12px;
+         font-weight: 500;
+         color: var(--grey);
+         margin-bottom: 0;
+      }
+   }
+}

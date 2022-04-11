@@ -1,0 +1,139 @@
+#tripwe-table {
+   .form-tabel {
+      label {
+         margin-right: 10px;
+         margin-bottom: 0;
+         font-size: 13px;
+         font-weight: 500;
+      }
+      input {
+         height: 26px;
+         border-radius: 4px 0 0 4px;
+         font-size: 12px !important;
+         font-weight: 500 !important;
+         color: var(--white);
+         background: var(--form);
+         border: none;
+         &:focus {
+            box-shadow: none;
+         }
+         &::placeholder {
+            color: var(--ph);
+         }
+      }
+      .vd-picker__input-icon {
+         margin-top: 0 !important;
+         padding: 0;
+         background-color: var(--ijoT);
+         border-radius: 0 4px 4px 0;
+         .vd-picker__input-icon__wrapper {
+            width: 26px;
+            height: 26px;
+            padding: 3px 6px;
+            .date {
+               opacity: 0;
+               margin-left: -5px;
+               width: 26px;
+               height: 26px;
+            }
+            .vd-icon {
+               margin-left: -21px;
+            }
+         }
+      }
+      button {
+         height: 26px;
+         border-radius: 0 4px 4px 0;
+         background: var(--ijoT);
+         color: var(--white);
+         border-color: var(--ijoT);
+         &.btn {
+            padding: 3px 6px;
+            &:focus {
+               box-shadow: none;
+            }
+         }
+      }
+      &#form-center {
+         input {
+            padding: 0 5px 0 10px;
+            &::-webkit-datetime-edit-text { padding: 0 0.3em; }
+            &::-webkit-inner-spin-button { display: none; }
+            &::-webkit-calendar-picker-indicator { 
+               background-image: url('../images/ic_calender.png');  
+               padding: 6px;
+               border-radius: 0 4px 4px 0;
+               background-color: var(--ijoT);
+               margin-left: 10px !important;
+               margin-right: -5px !important;
+            }
+         }
+      }
+      &#form-right {
+         .form-check {
+            background: var(--form);
+            border-radius: 4px;
+            padding-right: 12px;
+            padding-left: 12px;
+            input {
+               accent-color: var(--kun);
+            }
+            label {
+               margin-right: 12px;
+            }
+            label:last-child {
+               margin-right: 0 !important;
+            }
+         }
+      }
+   }
+
+   table {
+      margin-top: 14px;
+      thead {
+         background: var(--ijoT);
+         tr {
+            td:first-child {
+               border-top-left-radius: 5px;
+               accent-color: var(--kun);
+            }
+            td:last-child {
+               border-top-right-radius: 5px;
+               accent-color: var(--kun);
+            }
+            td {
+               color: var(--white);
+               font-size: 11px;
+               font-weight: 500;
+               padding-top: 2px;
+               padding-bottom: 2px;
+               vertical-align: middle;
+               text-align: center;
+               border-color: var(--bg-1);
+               border-bottom-color: var(--white);
+               border-top: none;
+               input {
+                  border-radius: 3px;
+               }
+            }
+         }
+      }
+      tbody {
+         background: var(--abu);
+         tr {
+            td:first-child {
+               border-top: none !important;
+            }
+            td {
+               input {
+                  accent-color: var(--kun);
+               }
+               padding-top: 0;
+               padding-bottom: 0;
+               border-color: var(--white);
+               vertical-align: middle;
+            }
+         }
+      }
+   }
+}

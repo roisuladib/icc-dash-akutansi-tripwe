@@ -1,0 +1,46 @@
+@media (max-width: 991.98px) {
+   .logo {
+      margin-left: auto !important;
+      margin-right: auto !important;
+   }
+   .my-nav {
+      display: none;
+   }
+   // #tab-content-1 {
+   //    ion-icon {
+   //       font-size: 40px !important;
+   //    }
+   // }
+}
+@media (min-width: 992px) {
+   #navbar-mobile {
+      display: none;
+   }
+}
+
+@media (max-width: 754px) {
+   #tripwe-table {
+      .title {
+         margin-top: 10px !important;
+         margin-bottom: -24px !important;
+      }
+   }
+}
+@media (max-width: 1200px) {
+   #form-right {
+      float: left !important;
+   }
+   // #form-center {
+   //    #date_permintaan_2 {
+   //       margin-left: 0 !important;
+   //    }
+   // }
+}
+@media (max-width: 1199.98px) {
+   #form-center {
+      margin-bottom: 14px;
+      .date_1 {
+         margin-bottom: 10px !important;
+      }
+   }
+}

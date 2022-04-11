@@ -1,0 +1,25 @@
+input[type="date"] {
+   &.date {
+      padding: 0 5px 0 10px;
+      height: 26px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--white);
+      background: var(--form);
+      border: none;
+      &:focus {
+         box-shadow: none;
+      }
+      &::-webkit-datetime-edit-text { padding: 0 0.3em; }
+      &::-webkit-inner-spin-button { display: none; }
+      &::-webkit-calendar-picker-indicator { 
+         background-image: url('../images/ic_calender.png');  
+         padding: 6px;
+         border-radius: 0 4px 4px 0;
+         background-color: var(--ijoT);
+         margin-left: 10px !important;
+         margin-right: -5px !important;
+      }
+   }
+}
