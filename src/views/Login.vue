@@ -32,13 +32,11 @@ import qs from 'qs'
 
 export default {  
    name: 'Login',
-   data() {
-      return {
-         telp: '',
-         pass: '',
-         loading: false
-      }
-   },
+   data: () => ({
+      telp: '',
+      pass: '',
+      loading: false
+   }),
    mounted() {
       document.title = 'Tripwe jurnal | Login';
    },
